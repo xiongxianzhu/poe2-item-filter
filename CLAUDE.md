@@ -76,6 +76,20 @@ Show
 sounds/
 ├── 混沌石.mp3
 ├── 神圣石.mp3
+├── 崇高石.mp3
+├── 瓦尔宝珠.mp3
+├── 卡兰德的魔镜.mp3
+├── 辛格拉的发辫.mp3
+├── 剥离石.mp3
+├── 完美混沌石.mp3
+├── 完美崇高石.mp3
+├── S级技能宝石.mp3
+├── S级辅助宝石.mp3
+├── S级精魂宝石.mp3
+├── 丝克玛便鞋.mp3
+├── 先祖冠冕.mp3
+├── 邪恶束衣.mp3
+├── 海妖之鳞手套.mp3
 ├── 传奇项链.mp3
 └── ...
 ```
@@ -177,6 +191,7 @@ HasInfluence <Shaper/Elder/Crusader/Hunter/Redeemer/Warlord>
 - Divine Orb = 神圣石
 - Exalted Orb = 崇高石
 - Vaal Orb = 瓦尔宝珠（不是 "Vaal珠宝"）
+- Orb of Annulment = 剥离石
 - Regal Orb = 富豪石（不是 "改造石"）
 - Orb of Alchemy = 点金石（不是 "强袭石"）
 - Orb of Transmutation = 蜕变石（不是 "魔法石"）
@@ -190,6 +205,49 @@ HasInfluence <Shaper/Elder/Crusader/Hunter/Redeemer/Warlord>
 - Perfect Orb of Augmentation = 完美增幅石
 - Perfect Orb of Transmutation = 完美蜕变石
 - Perfect Jeweller's Orb = 完美工匠石
+
+### 宝石类（S级）
+- Uncut Skill Gem = 技能宝石（ItemLevel >= 19）
+- Uncut Support Gem = 辅助宝石（ItemLevel >= 5）
+- Uncut Spirit Gem = 精魂宝石（ItemLevel >= 19）
+
+### S级基础装备（高价值底材）
+- Silk Slippers = 丝克玛便鞋（ItemLevel >= 82）
+- Tasalian Focus = 塔萨里奥法器（ItemLevel >= 82）
+- Ancestral Tiara = 先祖冠冕（ItemLevel >= 82）
+- Vile Robe = 邪恶束衣（ItemLevel >= 82）
+- Sirenscale Gloves = 海妖之鳞手套（ItemLevel >= 82）
+- Heavy Belt = 普通重革腰带（Rarity == Normal）
+- Rattling Sceptre = 罪孽短杖（ItemLevel >= 78）
+- Solar Amulet = 日曜护身符（Rarity >= Normal）
+
+### S级物品分类说明
+
+**核心通货**（游戏经济基础）：
+- 混沌石、神圣石、崇高石、瓦尔宝珠
+
+**赛季通货**（0.4赛季专属）：
+- 卡兰德的魔镜、辛格拉的发辫
+
+**制作用通货**（高级制作材料）：
+- 剥离石（移除词缀）
+- 完美通货系列（混沌石、崇高石、富豪石、增幅石、蜕变石、工匠石）
+
+**高等级宝石**（可用于高级技能构建）：
+- >=19级 技能宝石
+- >=5级 辅助宝石
+- >=19级 精魂宝石
+
+**高价值底材装备**（可制作顶级装备）：
+- >=82级 敏捷/智慧/法系底材（丝克玛便鞋、塔萨里奥法器、先祖冠冕、邪恶束衣、海妖之鳞手套）
+- >=78级 罪孽短杖
+- 普通重革腰带（普通品质）
+- 日曜护身符（任意稀有度）
+
+**顶级传奇物品**（可能BiS装备）：
+- >=70级 传奇饰品（项链、戒指、腰带）
+- >=70级 传奇武器
+- 传奇法杖（任意等级）
 
 ## 测试过滤器
 

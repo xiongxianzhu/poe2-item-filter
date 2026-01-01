@@ -72,12 +72,19 @@ poe2-item-filter/
 ## S级物品示例
 
 ### 核心通货
+
 - 混沌石
 - 神圣石
 - 崇高石
 - 瓦尔宝珠
 
+### 赛季专属通货（0.4赛季）
+
+- 卡兰德的魔镜
+- 辛格拉的发辫
+
 ### 完美通货
+
 - 完美混沌石
 - 完美崇高石
 - 完美富豪石
@@ -86,6 +93,7 @@ poe2-item-filter/
 - 完美工匠石
 
 ### 顶级饰品
+
 - 传奇项链（70级以上）
 - 传奇戒指（70级以上）
 - 传奇腰带（70级以上）
@@ -122,7 +130,7 @@ poe2-item-filter/
 
 过滤器支持自定义 MP3 音效，所有声音文件直接放在 `sounds/` 根目录下：
 
-```
+```text
 sounds/
 ├── 混沌石.mp3
 ├── 神圣石.mp3
@@ -156,6 +164,7 @@ sounds/
 ### 数据来源
 
 所有物品的 **BaseType**（英文名称）均来自官方数据源：
+
 - 简体中文：https://poe2db.tw/cn/
 - 英文：https://poe2db.tw/us/
 
@@ -164,6 +173,7 @@ sounds/
 ### 更新流程
 
 添加/修改物品时，按顺序更新这些文件：
+
 1. `poe2-0.4.filter` - 添加过滤规则
 2. `物品对照表.md` - 更新参考表
 3. `物品视觉样式.md` - 更新视觉规范
@@ -180,6 +190,7 @@ sounds/
 **Q: 安装脚本报错"找不到 POE2 游戏目录"**
 
 A: 确认：
+
 1. 已安装 Path of Exile 2
 2. 游戏至少运行过一次
 3. 使用默认安装路径（`%USERPROFILE%\Documents\My Games\Path of Exile 2\`）
@@ -187,8 +198,8 @@ A: 确认：
 **Q: 提示"无法创建符号链接"**
 
 A: 需要以下条件之一：
+
 1. 以管理员身份运行 `install.bat`
-2. 或启用 Windows 开发者模式（设置 → 更新和安全 → 开发者选项）
 
 **Q: 游戏中看不到声音图标**
 
@@ -200,6 +211,7 @@ A: 检查：
 **Q: 脚本执行已被禁用**
 
 A: 以管理员身份打开 PowerShell，运行：
+
 ```powershell
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
@@ -208,13 +220,12 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 ## 许可证
 
-MIT License
-
-详见 [LICENSE](LICENSE) 文件
+详见 [MIT License](LICENSE) 文件
 
 ## 致谢
 
-- 数据来源：[poe2db.tw](https://poe2db.tw/)
+- 数据来源：[流放2编年史](https://poe2db.tw/)
+- 声音文件来源：[爱给音频编辑器](https://www.aigei.com/tool/audio/dub)
 
 ## 联系方式
 
