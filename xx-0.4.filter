@@ -156,6 +156,103 @@ Show
   PlayEffect Orange Temp
   CustomAlertSound "sounds/腐烂预兆.mp3" 300
 
+# 祭祀
+# 左旋崇高预兆
+Show
+  Class == "Omen"
+  BaseType == "Omen of Sinistral Exaltation"
+  SetBorderColor 255 120 0 255
+  SetBackgroundColor 70 30 0 220
+  SetTextColor 255 255 255 255
+  SetFontSize 45
+  MinimapIcon 2 Orange Star
+  PlayEffect Orange Temp
+  CustomAlertSound "sounds/左旋崇高预兆.mp3" 300
+
+# 右旋崇高预兆
+Show
+  Class == "Omen"
+  BaseType == "Omen of Dextral Exaltation"
+  SetBorderColor 255 120 0 255
+  SetBackgroundColor 70 30 0 220
+  SetTextColor 255 255 255 255
+  SetFontSize 45
+  MinimapIcon 2 Orange Star
+  PlayEffect Orange Temp
+  CustomAlertSound "sounds/右旋崇高预兆.mp3" 300
+
+# 左旋结晶预兆
+Show
+  Class == "Omen"
+  BaseType == "Omen of Sinistral Crystallisation"
+  SetBorderColor 255 120 0 255
+  SetBackgroundColor 70 30 0 220
+  SetTextColor 255 255 255 255
+  SetFontSize 45
+  MinimapIcon 2 Orange Star
+  PlayEffect Orange Temp
+  CustomAlertSound "sounds/左旋结晶预兆.mp3" 300
+
+# 右旋结晶预兆
+Show
+  Class == "Omen"
+  BaseType == "Omen of Dextral Crystallisation"
+  SetBorderColor 255 120 0 255
+  SetBackgroundColor 70 30 0 220
+  SetTextColor 255 255 255 255
+  SetFontSize 45
+  MinimapIcon 2 Orange Star
+  PlayEffect Orange Temp
+  CustomAlertSound "sounds/右旋结晶预兆.mp3" 300
+
+# 左旋消抹预兆
+Show
+  Class == "Omen"
+  BaseType == "Omen of Sinistral Erasure"
+  SetBorderColor 255 120 0 255
+  SetBackgroundColor 70 30 0 220
+  SetTextColor 255 255 255 255
+  SetFontSize 45
+  MinimapIcon 2 Orange Star
+  PlayEffect Orange Temp
+  CustomAlertSound "sounds/左旋消抹预兆.mp3" 300
+
+# 右旋消抹预兆
+Show
+  Class == "Omen"
+  BaseType == "Omen of Dextral Erasure"
+  SetBorderColor 255 120 0 255
+  SetBackgroundColor 70 30 0 220
+  SetTextColor 255 255 255 255
+  SetFontSize 45
+  MinimapIcon 2 Orange Star
+  PlayEffect Orange Temp
+  CustomAlertSound "sounds/右旋消抹预兆.mp3" 300
+
+# 左旋剥离预兆
+Show
+  Class == "Omen"
+  BaseType == "Omen of Sinistral Annulment"
+  SetBorderColor 255 120 0 255
+  SetBackgroundColor 70 30 0 220
+  SetTextColor 255 255 255 255
+  SetFontSize 45
+  MinimapIcon 2 Orange Star
+  PlayEffect Orange Temp
+  CustomAlertSound "sounds/左旋剥离预兆.mp3" 300
+
+# 右旋剥离预兆
+Show
+  Class == "Omen"
+  BaseType == "Omen of Dextral Annulment"
+  SetBorderColor 255 120 0 255
+  SetBackgroundColor 70 30 0 220
+  SetTextColor 255 255 255 255
+  SetFontSize 45
+  MinimapIcon 2 Orange Star
+  PlayEffect Orange Temp
+  CustomAlertSound "sounds/右旋剥离预兆.mp3" 300
+
 # 剥离石
 Show
   Class == "Stackable Currency"
