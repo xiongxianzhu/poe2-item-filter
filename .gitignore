@@ -1,0 +1,140 @@
+# ====================
+# Windows 系统文件
+# ====================
+
+# Windows 缩略图数据库文件
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Windows 回收站
+$RECYCLE.BIN/
+
+# Windows 安装程序生成的文件夹
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# ====================
+# PowerShell 相关
+# ====================
+
+# PowerShell 模块缓存
+*.ps1xml
+
+# ====================
+# 编辑器 / IDE
+# ====================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# JetBrains IDEs (IntelliJ, PyCharm, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Vim
+*.swp
+*.swo
+*~
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# ====================
+# Git 相关
+# ====================
+
+# Git 合并冲突文件
+*.orig
+*.rej
+
+# ====================
+# 声音文件（可选）
+# ====================
+
+# 如果 sounds 目录下的文件很大，可以选择忽略
+# 取消下面的注释以忽略所有声音文件
+# sounds/**/*.mp3
+# sounds/**/*.wav
+# sounds/**/*.ogg
+
+# 或者只保留声音目录结构，忽略所有音频文件
+# sounds/*.*
+
+# ====================
+# 临时文件
+# ====================
+
+# 临时文件
+*.tmp
+*.temp
+*.log
+*.cache
+
+# 系统临时文件
+*.bak
+*.backup
+
+# ====================
+# 项目特定
+# ====================
+
+# 用户特定的过滤器和配置
+*-custom.filter
+*-user.filter
+*-backup.filter
+
+# 导出的文件
+*.export
+
+# ====================
+# 操作系统
+# ====================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+.Trash-*
+
+# ====================
+# 其他
+# ====================
+
+# 压缩文件
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# 可执行文件
+*.exe
+*.dll
+*.so
+*.dylib
+
+# 测试文件
+test.*
+*_test.*
+*_test_*
