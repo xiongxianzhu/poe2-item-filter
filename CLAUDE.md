@@ -212,7 +212,7 @@ HasInfluence <Shaper/Elder/Crusader/Hunter/Redeemer/Warlord>
 - Uncut Spirit Gem = 精魂宝石（ItemLevel >= 19）
 
 ### S级基础装备（高价值底材）
-- Silk Slippers = 丝克玛便鞋（ItemLevel >= 82）
+- Sekhema Sandals = 丝克玛便鞋（ItemLevel >= 82）
 - Tasalian Focus = 塔萨里奥法器（ItemLevel >= 82）
 - Ancestral Tiara = 先祖冠冕（ItemLevel >= 82）
 - Vile Robe = 邪恶束衣（ItemLevel >= 82）

@@ -26,7 +26,7 @@
 # 崇高石
 Show
     Class "Currency"
-    BaseType "Exalted Orb"
+    BaseType == "Exalted Orb"
     SetBorderColor 255 120 0 255
     SetBackgroundColor 70 30 0 220
     SetTextColor 255 255 255 255
@@ -50,7 +50,7 @@ Show
 # 混沌石
 Show
     Class "Currency"
-    BaseType "Chaos Orb"
+    BaseType == "Chaos Orb"
     SetBorderColor 255 120 0 255
     SetBackgroundColor 70 30 0 220
     SetTextColor 255 255 255 255
@@ -58,6 +58,30 @@ Show
     MinimapIcon 2 Orange Star
     PlayEffect Orange Temp
     CustomAlertSound "sounds/混沌石.mp3" 300
+
+# 高级崇高石
+Show
+    Class "Currency"
+    BaseType == "Greater Exalted Orb"
+    SetBorderColor 255 120 0 255
+    SetBackgroundColor 70 30 0 220
+    SetTextColor 255 255 255 255
+    SetFontSize 45
+    MinimapIcon 2 Orange Star
+    PlayEffect Orange Temp
+    CustomAlertSound "sounds/高级崇高石.mp3" 300
+
+# 高级混沌石
+Show
+    Class "Currency"
+    BaseType == "Greater Chaos Orb"
+    SetBorderColor 255 120 0 255
+    SetBackgroundColor 70 30 0 220
+    SetTextColor 255 255 255 255
+    SetFontSize 45
+    MinimapIcon 2 Orange Star
+    PlayEffect Orange Temp
+    CustomAlertSound "sounds/高级混沌石.mp3" 300
 
 # 瓦尔宝珠
 Show
@@ -422,6 +446,39 @@ Show
     PlayEffect Orange Temp
     CustomAlertSound "sounds/完美工匠石.mp3" 300
 
+# 宝库钥匙
+Show
+    Class "Vault Keys"
+    SetBorderColor 255 120 0 255
+    SetBackgroundColor 70 30 0 220
+    SetTextColor 255 255 255 255
+    SetFontSize 45
+    MinimapIcon 2 Orange Star
+    PlayEffect Orange Temp
+    CustomAlertSound "sounds/宝库钥匙.mp3" 300
+
+# 巅峰钥匙
+Show
+    Class "Pinnacle Keys"
+    SetBorderColor 255 120 0 255
+    SetBackgroundColor 70 30 0 220
+    SetTextColor 255 255 255 255
+    SetFontSize 45
+    MinimapIcon 2 Orange Star
+    PlayEffect Orange Temp
+    CustomAlertSound "sounds/巅峰钥匙.mp3" 300
+
+# 珠宝
+Show
+    Class "Jewels"
+    SetBorderColor 255 120 0 255
+    SetBackgroundColor 70 30 0 220
+    SetTextColor 255 255 255 255
+    SetFontSize 45
+    MinimapIcon 2 Orange Star
+    PlayEffect Orange Temp
+    CustomAlertSound "sounds/珠宝.mp3" 300
+
 # 传奇项链
 Show
     Rarity Unique
@@ -464,7 +521,7 @@ Show
 # 传奇武器
 Show
     Rarity Unique
-    Class "One Hand Axes" "Two Hand Axes" "One Hand Swords" "Two Hand Swords" "One Hand Maces" "Two Hand Maces"
+    Class "One Hand Axes" "Two Hand Axes" "One Hand Swords" "Two Hand Swords" "One Hand Maces" "Two Hand Maces" "Crossbows"
     DropLevel >= 70
     SetBorderColor 255 120 0 255
     SetBackgroundColor 70 30 0 220
@@ -477,7 +534,7 @@ Show
 # 传奇法杖
 Show
     Rarity Unique
-    Class "Staves"
+    Class "Staves" "Wands"
     SetBorderColor 255 120 0 255
     SetBackgroundColor 70 30 0 220
     SetTextColor 255 255 255 255
@@ -530,7 +587,7 @@ Show
 # 丝克玛便鞋
 Show
     Class "Boots"
-    BaseType "Silk Slippers"
+    BaseType "Sekhema Sandals"
     ItemLevel >= 82
     SetBorderColor 255 120 0 255
     SetBackgroundColor 70 30 0 220
@@ -939,7 +996,7 @@ Show
 # 丝克玛便鞋
 Show
     Class "Boots"
-    BaseType "Silk Slippers"
+    BaseType "Sekhema Sandals"
     SetBorderColor 255 200 0 255
     SetBackgroundColor 60 50 0 240
     SetTextColor 255 255 255 255
@@ -1058,6 +1115,19 @@ Show
 Show
     Rarity Unique
     Class "Body Armours" "Helmets" "Gloves" "Boots" "Shields"
+    DropLevel < 60
+    SetBorderColor 0 240 255 255
+    SetBackgroundColor 0 50 70 200
+    SetTextColor 255 255 255 255
+    SetFontSize 33
+    MinimapIcon 1 Blue Circle
+    PlayEffect Blue Temp
+    CustomAlertSound "sounds/低等级传奇装备.mp3" 200
+
+# 传奇武器 - 低等级
+Show
+    Rarity Unique
+    Class "One Hand Axes" "Two Hand Axes" "One Hand Swords" "Two Hand Swords" "One Hand Maces" "Two Hand Maces" "Crossbows"
     DropLevel < 60
     SetBorderColor 0 240 255 255
     SetBackgroundColor 0 50 70 200
