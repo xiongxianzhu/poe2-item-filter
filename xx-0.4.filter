@@ -156,6 +156,18 @@ Show
     PlayEffect Orange Temp
     CustomAlertSound "sounds/深渊回响预兆.mp3" 300
 
+# 远古预兆
+Show
+    Class == "Omen"
+    BaseType == "Omen of the Ancients"
+    SetBorderColor 255 120 0 255
+    SetBackgroundColor 70 30 0 220
+    SetTextColor 255 255 255 255
+    SetFontSize 45
+    MinimapIcon 2 Orange Star
+    PlayEffect Orange Temp
+    CustomAlertSound "sounds/远古预兆.mp3" 300
+
 # 腐烂预兆
 Show
     Class == "Omen"
@@ -167,6 +179,66 @@ Show
     MinimapIcon 2 Orange Star
     PlayEffect Orange Temp
     CustomAlertSound "sounds/腐烂预兆.mp3" 300
+
+# 遗存颚骨
+Show
+    Class == "Stackable Currency"
+    BaseType == "Preserved Jawbone"
+    SetBorderColor 255 120 0 255
+    SetBackgroundColor 70 30 0 220
+    SetTextColor 255 255 255 255
+    SetFontSize 45
+    MinimapIcon 2 Orange Star
+    PlayEffect Orange Temp
+    CustomAlertSound "sounds/遗存颚骨.mp3" 300
+
+# 遗存肋骨
+Show
+    Class == "Stackable Currency"
+    BaseType == "Preserved Rib"
+    SetBorderColor 255 120 0 255
+    SetBackgroundColor 70 30 0 220
+    SetTextColor 255 255 255 255
+    SetFontSize 45
+    MinimapIcon 2 Orange Star
+    PlayEffect Orange Temp
+    CustomAlertSound "sounds/遗存肋骨.mp3" 300
+
+# 遗存锁骨
+Show
+    Class == "Stackable Currency"
+    BaseType == "Preserved Collarbone"
+    SetBorderColor 255 120 0 255
+    SetBackgroundColor 70 30 0 220
+    SetTextColor 255 255 255 255
+    SetFontSize 45
+    MinimapIcon 2 Orange Star
+    PlayEffect Orange Temp
+    CustomAlertSound "sounds/遗存锁骨.mp3" 300
+
+# 遗存头骨
+Show
+    Class == "Stackable Currency"
+    BaseType == "Preserved Cranium"
+    SetBorderColor 255 120 0 255
+    SetBackgroundColor 70 30 0 220
+    SetTextColor 255 255 255 255
+    SetFontSize 45
+    MinimapIcon 2 Orange Star
+    PlayEffect Orange Temp
+    CustomAlertSound "sounds/遗存头骨.mp3" 300
+
+# 遗存椎骨
+Show
+    Class == "Stackable Currency"
+    BaseType == "Preserved Vertebrae"
+    SetBorderColor 255 120 0 255
+    SetBackgroundColor 70 30 0 220
+    SetTextColor 255 255 255 255
+    SetFontSize 45
+    MinimapIcon 2 Orange Star
+    PlayEffect Orange Temp
+    CustomAlertSound "sounds/遗存椎骨.mp3" 300
 
 # 祭祀
 # 左旋崇高预兆
@@ -619,6 +691,18 @@ Show
     MinimapIcon 2 Yellow Diamond
     PlayEffect Yellow Temp
     CustomAlertSound "sounds/先驱石板.mp3" 250
+
+# 普通腰带
+Show
+    Class "Belts"
+    Rarity Normal
+    SetBorderColor 255 200 0 255
+    SetBackgroundColor 60 50 0 240
+    SetTextColor 255 255 255 255
+    SetFontSize 40
+    MinimapIcon 2 Yellow Diamond
+    PlayEffect Yellow Temp
+    CustomAlertSound "sounds/普通腰带.mp3" 250
 
 # ====================
 # A级 - 高价值物品
