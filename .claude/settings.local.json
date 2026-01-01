@@ -1,7 +1,13 @@
 {
   "permissions": {
     "allow": [
-      "WebSearch"
+      "WebSearch",
+      "Bash(powershell:*)",
+      "Bash(del:*)",
+      "Bash(cmd /c \"copy /Y 安装过滤器.ps1 install-filter.ps1\")",
+      "Bash(nul:*)",
+      "Bash(dir:*)",
+      "Bash(cmd /c \"copy 安装过滤器.ps1 install-script.ps1\")"
     ],
     "deny": [],
     "ask": []
