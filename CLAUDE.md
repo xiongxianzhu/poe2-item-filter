@@ -25,7 +25,7 @@
 
 ## 文件命名规范
 
-- **过滤器文件**：`poe2-<版本号>.filter`（例如 `poe2-0.4.filter`）
+- **过滤器文件**：`xx-<版本号>.filter`（例如 `xx-0.4.filter`）
 - **声音文件**：`<简体中文名>.mp3`，仅使用简体中文
 - **文档**：使用描述性中文名称（例如 `物品对照表.md`、`物品视觉样式.md`）
 
@@ -151,7 +151,7 @@ New-Item -ItemType SymbolicLink -Path $target -Value $source
 
 ### 步骤2：原子性更新所有文件
 添加/修改物品时，按顺序更新这些文件：
-1. `poe2-0.4.filter` - 添加过滤规则
+1. `xx-0.4.filter` - 添加过滤规则
 2. `docs/物品对照表.md` - 添加到参考表
 3. `docs/物品视觉样式.md` - 添加到视觉规范
 4. `sounds/README.md` - 添加到目录列表

@@ -1,241 +1,109 @@
-# POE2 0.4 赛季物品过滤器
+# 🎒 POE2 Item Filter
 
 <div align="center">
 
-**专业的 Path of Exile 2 物品过滤系统**
+> **为 Path of Exile 2 打造的专业级物品过滤系统**
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![POE2 Version](https://img.shields.io/badge/POE2-0.4-orange.svg)](https://poe2db.tw/)
-[![Platform](https://img.shields.io/badge/platform-Windows%2011-blue.svg)](https://www.microsoft.com/windows)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](LICENSE)
+[![Version](https://img.shields.io/badge/POE2-Season_0.4-orange.svg?style=flat-square)](https://poe2db.tw/)
+[![Platform](https://img.shields.io/badge/Platform-Windows_11-blue.svg?style=flat-square)](https://www.microsoft.com/windows)
+
+[特性](#-特性) • [安装](#-快速开始) • [文档](#-文档系统) • [FAQ](#-常见问题)
 
 </div>
 
-## 特性
+---
 
-- **6级价值分级系统** - 基于实际物品价值的智能过滤
-- **自定义声音提示** - 支持自定义 MP3 音效
-- **视觉特效系统** - 地图图标、光柱特效、彩色边框
-- **一键安装** - 自动创建符号链接到游戏目录
-- **完整文档** - 物品对照表、视觉样式规范、使用说明
-- **自动同步** - 修改过滤器后游戏中直接生效
+## ✨ 特性
 
-## 快速开始
+- 💎 **智能分级**：基于市场价值的 **6级** 物品价值体系
+- 🎵 **听觉盛宴**：全自定义 MP3 音效支持，掉落即知
+- 🌈 **视觉增强**：独特的光柱、边框与小地图图标，快速识别
+- ⚡ **一键部署**：双击脚本即可完成安装，自动符号链接同步
+- 🔄 **实时同步**：修改配置后游戏中即时生效，无需繁琐重装
 
-### 安装
+## 🚀 快速开始
 
-**双击** `install.bat` 即可自动安装所有过滤器文件和声音文件。
+### 📥 安装
 
-> **注意**：需要 Windows 11 + 管理员权限（或开发者模式）
+只需一步，即可自动完成配置：
+
+> 双击运行项目根目录下的 **`install.bat`**
 >
-> **说明**：安装脚本使用英文界面以避免编码问题，确保在不同系统环境下稳定运行。
+> *注：需要 Windows 11 及管理员权限*
 
-详细安装说明请参阅 [docs/安装说明.md](docs/安装说明.md)
+### 🎮 使用
 
-### 使用
+1. 启动 **Path of Exile 2**
+2. 进入 `设置` -> `物品` -> `物品过滤器`
+3. 选择 **`xx-0.4.filter`**
 
-1. 启动 Path of Exile 2
-2. 进入 **设置** → **物品过滤器**
-3. 从列表中选择 `poe2-0.4.filter`
+## 💎 价值体系
 
-## 文件结构
+我们构建了清晰的价值层级，让你一目了然：
 
-```
-poe2-item-filter/
-├── install.bat              # 双击运行（启动器）
-├── install.ps1              # 安装脚本（英文界面，避免编码问题）
-├── poe2-0.4.filter          # 主过滤器文件
-├── sounds/                  # 自定义声音文件（MP3，直接放在根目录）
-│   ├── 混沌石.mp3
-│   ├── 神圣石.mp3
-│   ├── 传奇项链.mp3
-│   └── ...
-├── docs/                    # 文档目录
-│   ├── 物品对照表.md         # 物品名称对照表
-│   ├── 物品视觉样式.md       # 视觉样式规范
-│   └── 安装说明.md          # 详细安装指南
-├── sounds/README.md         # 声音文件文档
-├── CLAUDE.md                # 开发者指南
-└── README.md                # 本文件
-```
+| 等级 | 价值定义 | 视觉表现 | 音效提示 | 小地图 |
+|:---:|:---|:---|:---|:---:|
+| **S** | 🏆 **顶级珍宝** | 烈焰橙色 + 最大字号 | 🚨 300% 音量 | ⭐ 大星形 |
+| **A** | 💰 **高价值** | 浓郁亮金 + 大字号 | 🔔 250% 音量 | 💠 中菱形 |
+| **B** | 💎 **中高价值** | 电光青蓝 + 标准字号 | 🎵 200% 音量 | 🔵 小圆形 |
+| **C** | 🟢 **中等价值** | 荧光毒绿 + 小字号 | 🔉 150% 音量 | - |
+| **D** | 🌑 **低价值** | 铁灰墨黑 + 最小字号 | 🔇 静音 | - |
 
-## 价值等级系统
-
-| 等级 | 价值 | 颜色 | 字体 | 音量 | 地图图标 |
-|------|-------|-------|------|--------|----------|
-| **S** | 顶级价值 | 烈焰橙色 | 45 (最大) | 300 | 大星形 |
-| **A** | 高价值 | 浓郁亮金 | 40 (大) | 250 | 中菱形 |
-| **B** | 中高价值 | 电光青蓝 | 35 (标准) | 200 | 小圆形 |
-| **C** | 中等价值 | 荧光毒绿 | 30 (小) | 150 | 无 |
-| **D** | 低价值 | 铁灰墨黑 | 25 (最小) | 无 | 无 |
-| **Special** | 金币/底子 | 明黄/银白 | 40/33 | 200 | 圆形 |
-| **E** | 无价值 | 隐藏 | - | - | - |
-
-## S级物品示例
-
-### 核心通货
-
-- 混沌石
-- 神圣石
-- 崇高石
-- 瓦尔宝珠
-
-### 赛季专属通货（0.4赛季）
-
-- 卡兰德的魔镜
-- 辛格拉的发辫
-
-### 完美通货
-
-- 完美混沌石
-- 完美崇高石
-- 完美富豪石
-- 完美增幅石
-- 完美蜕变石
-- 完美工匠石
-
-### 顶级饰品
-
-- 传奇项链（70级以上）
-- 传奇戒指（70级以上）
-- 传奇腰带（70级以上）
-- 传奇武器（70级以上）
-
-完整物品列表请参阅 [docs/物品对照表.md](docs/物品对照表.md)
-
-## 系统要求
-
-### 必需
-
-- **操作系统**：Windows 11
-- **游戏**：Path of Exile 2（0.4赛季）
-- **游戏状态**：至少运行过一次
-
-### 权限要求
-
-- 管理员权限
-
-## 高级功能
-
-### 语言策略
-
-本项目采用混合语言策略以确保最佳兼容性：
-
-- **安装脚本 UI**：英文（避免 Windows 编码问题，确保跨系统稳定性）
-- **过滤器文件**：中文注释（兼容 POE2 中文客户端）
-- **文档**：简体中文（面向中文玩家社区）
-- **声音文件**：简体中文命名
-
-这种设计确保了在中文使用环境下的最佳体验，同时避免了编码相关的技术问题。
-
-### 自定义声音
-
-过滤器支持自定义 MP3 音效，所有声音文件直接放在 `sounds/` 根目录下：
+## 📂 项目结构
 
 ```text
-sounds/
-├── 混沌石.mp3
-├── 神圣石.mp3
-├── 崇高石.mp3
-├── 传奇项链.mp3
-└── ...
+poe2-item-filter/
+├── 📜 xx-0.4.filter        # 核心过滤器文件
+├── 🔊 sounds/              # 音效库 (MP3)
+├── 📖 docs/                # 详细文档
+│   ├── 物品对照表.md
+│   ├── 物品视觉样式.md
+│   └── 安装说明.md
+├── 🛠️ install.bat          # 一键安装脚本
+└── 📄 README.md            # 项目说明
 ```
 
-声音设计指南请参阅 [sounds/README.md](sounds/README.md)
+## 📚 文档系统
 
-### 符号链接同步
+- [🔍 **物品对照表**](docs/物品对照表.md)：中英对照与分类速查
+- [🎨 **视觉样式规范**](docs/物品视觉样式.md)：配色方案与显示参数详解
+- [📖 **安装指南**](docs/安装说明.md)：详细安装步骤与故障排查
+- [🔊 **声音指南**](sounds/README.md)：自定义音效说明
 
-安装脚本创建的是符号链接（非复制文件）。符号链接是一种特殊的文件系统对象：
+## ❓ 常见问题
 
-- **自动同步**：修改本目录的过滤器文件，游戏中自动生效
-- **无需重装**：修改后无需重新运行安装脚本
-- **节省空间**：不占用额外磁盘空间
-- **易于维护**：支持版本控制和备份
+<details>
+<summary><b>Q: 安装脚本提示找不到游戏目录？</b></summary>
+<br>
+A: 请确保您已运行过游戏至少一次，且游戏安装在默认路径。
+</details>
 
-> ⚠️ **注意**：安装后不要移动或重命名本仓库目录，否则符号链接会失效。
+<details>
+<summary><b>Q: 游戏中没有声音？</b></summary>
+<br>
+A: 请检查 <code>sounds</code> 目录下是否有对应的 MP3 文件，且文件名为简体中文。
+</details>
 
-## 文档
+<details>
+<summary><b>Q: 修改了过滤器没有生效？</b></summary>
+<br>
+A: 由于使用了符号链接，修改直接生效。请在游戏中点击刷新图标或重新加载过滤器。
+</details>
 
-- [docs/物品对照表.md](docs/物品对照表.md) - 简体中文 ↔ BaseType ↔ 声音文件
-- [docs/物品视觉样式.md](docs/物品视觉样式.md) - 完整视觉规范和参数
-- [docs/安装说明.md](docs/安装说明.md) - 详细安装指南和故障排查
-- [sounds/README.md](sounds/README.md) - 声音文件设计指南
-
-## 开发
-
-### 数据来源
-
-所有物品的 **BaseType**（英文名称）均来自官方数据源：
-
-- 简体中文：https://poe2db.tw/cn/
-- 英文：https://poe2db.tw/us/
-
-**严禁**自行翻译或猜测 BaseType 名称。
-
-### 更新流程
-
-添加/修改物品时，按顺序更新这些文件：
-
-1. `poe2-0.4.filter` - 添加过滤规则
-2. `物品对照表.md` - 更新参考表
-3. `物品视觉样式.md` - 更新视觉规范
-4. `sounds/README.md` - 更新目录列表
-
-### 开发指南
-
-详细开发指南请参阅 [CLAUDE.md](CLAUDE.md)
-
-## 故障排查
-
-### 常见问题
-
-**Q: 安装脚本报错"找不到 POE2 游戏目录"**
-
-A: 确认：
-
-1. 已安装 Path of Exile 2
-2. 游戏至少运行过一次
-3. 使用默认安装路径（`%USERPROFILE%\Documents\My Games\Path of Exile 2\`）
-
-**Q: 提示"无法创建符号链接"**
-
-A: 需要以下条件之一：
-
-1. 以管理员身份运行 `install.bat`
-
-**Q: 游戏中看不到声音图标**
-
-A: 检查：
-1. 声音文件是否存在（`sounds/` 目录）
-2. 文件名是否正确（使用简体中文）
-3. 文件格式是否为 MP3
-
-**Q: 脚本执行已被禁用**
-
-A: 以管理员身份打开 PowerShell，运行：
-
-```powershell
-Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-```
-
-更多问题和详细解决方案请参阅 [docs/安装说明.md](docs/安装说明.md) 的故障排查章节。
-
-## 许可证
-
-详见 [MIT License](LICENSE) 文件
-
-## 致谢
-
-- 数据来源：[流放2编年史](https://poe2db.tw/)
-- 声音文件来源：[爱给音频编辑器](https://www.aigei.com/tool/audio/dub)
-
-## 联系方式
-
-如有问题或建议，欢迎提交 Issue 或 Pull Request。
+<details>
+<summary><b>Q: 脚本执行已被禁用？</b></summary>
+<br>
+A: 以管理员身份打开 PowerShell，运行：<code>Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser</code>
+</details>
 
 ---
 
 <div align="center">
 
-**享受你的 POE2 游戏体验！** ⚔️💎
+**Enjoy your looting in Wraeclast!** ⚔️
+<br>
+<sub>Data Source: <a href="https://poe2db.tw/">POE2DB</a> | Audio Source: <a href="https://www.aigei.com/">Aigei</a></sub>
 
 </div>
+

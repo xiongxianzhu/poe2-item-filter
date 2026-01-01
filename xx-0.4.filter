@@ -449,6 +449,55 @@ Show
   PlayEffect Yellow Temp
   CustomAlertSound "sounds/日曜护身符.mp3" 300
 
+# S级裂片类（4种）
+# 裂隙碎片
+Show
+  Class == "Stackable Currency"
+  BaseType == "Breachstone Splinter"
+  SetBorderColor 255 215 0 255
+  SetBackgroundColor 255 215 0 80
+  SetTextColor 255 255 255 255
+  SetFontSize 45
+  MinimapIcon 2 Yellow Star
+  PlayEffect Yellow Temp
+  CustomAlertSound "sounds/裂隙碎片.mp3" 300
+
+# 梦魇拟像裂片
+Show
+  Class == "Stackable Currency"
+  BaseType == "Simulacrum Splinter"
+  SetBorderColor 255 215 0 255
+  SetBackgroundColor 255 215 0 80
+  SetTextColor 255 255 255 255
+  SetFontSize 45
+  MinimapIcon 2 Yellow Star
+  PlayEffect Yellow Temp
+  CustomAlertSound "sounds/梦魇拟像裂片.mp3" 300
+
+# 请愿碎片
+Show
+  Class == "Stackable Currency"
+  BaseType == "Petition Splinter"
+  SetBorderColor 255 215 0 255
+  SetBackgroundColor 255 215 0 80
+  SetTextColor 255 255 255 255
+  SetFontSize 45
+  MinimapIcon 2 Yellow Star
+  PlayEffect Yellow Temp
+  CustomAlertSound "sounds/请愿碎片.mp3" 300
+
+# 符文碎片
+Show
+  Class == "Stackable Currency"
+  BaseType == "Ritual Splinter"
+  SetBorderColor 255 215 0 255
+  SetBackgroundColor 255 215 0 80
+  SetTextColor 255 255 255 255
+  SetFontSize 45
+  MinimapIcon 2 Yellow Star
+  PlayEffect Yellow Temp
+  CustomAlertSound "sounds/符文碎片.mp3" 300
+
 # ====================
 # A级 - 高价值物品
 # 颜色：橙色 RGB(255, 165, 0)
