@@ -453,7 +453,7 @@ Show
 # 裂隙碎片
 Show
   Class == "Stackable Currency"
-  BaseType == "Breachstone Splinter"
+  BaseType == "Breach Splinter"
   SetBorderColor 255 215 0 255
   SetBackgroundColor 255 215 0 80
   SetTextColor 255 255 255 255
@@ -489,7 +489,7 @@ Show
 # 符文碎片
 Show
   Class == "Stackable Currency"
-  BaseType == "Ritual Splinter"
+  BaseType == "Runic Splinter"
   SetBorderColor 255 215 0 255
   SetBackgroundColor 255 215 0 80
   SetTextColor 255 255 255 255
