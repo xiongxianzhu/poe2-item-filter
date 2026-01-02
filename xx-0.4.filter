@@ -413,7 +413,7 @@ Show
 # 完美增幅石
 Show
     Class "Currency"
-    BaseType "Perfect Orb of Augmentation"
+    BaseType == "Perfect Orb of Augmentation"
     SetBorderColor 255 120 0 255
     SetBackgroundColor 70 30 0 220
     SetTextColor 255 255 255 255
@@ -772,7 +772,7 @@ Show
 # 高价值通货
 # 高级蜕变石
 Show
-    Class "Currency"
+    Class "Stackable Currency"
     BaseType "Greater Orb of Transmutation"
     SetBorderColor 255 200 0 255
     SetBackgroundColor 60 50 0 240
@@ -784,8 +784,8 @@ Show
 
 # 高级增幅石
 Show
-    Class "Currency"
-    BaseType "Greater Orb of Augmentation"
+    Class "Stackable Currency"
+    BaseType == "Greater Orb of Augmentation"
     SetBorderColor 255 200 0 255
     SetBackgroundColor 60 50 0 240
     SetTextColor 255 255 255 255
@@ -796,7 +796,7 @@ Show
 
 # 高级富豪石
 Show
-    Class "Currency"
+    Class "Stackable Currency"
     BaseType "Greater Regal Orb"
     SetBorderColor 255 200 0 255
     SetBackgroundColor 60 50 0 240
@@ -1127,7 +1127,7 @@ Show
 # 传奇武器 - 低等级
 Show
     Rarity Unique
-    Class "One Hand Axes" "Two Hand Axes" "One Hand Swords" "Two Hand Swords" "One Hand Maces" "Two Hand Maces" "Crossbows"
+    Class "One Hand Axes" "Two Hand Axes" "One Hand Swords" "Two Hand Swords" "One Hand Maces" "Two Hand Maces" "Crossbows" "Bows" "Spears"
     DropLevel < 60
     SetBorderColor 0 240 255 255
     SetBackgroundColor 0 50 70 200
