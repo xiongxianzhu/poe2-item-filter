@@ -864,7 +864,7 @@ Show
     SetFontSize 40
     MinimapIcon 2 Yellow Diamond
     PlayEffect Yellow Temp
-    CustomAlertSound "sounds/奥术师的铭刻.mp3" 300
+    CustomAlertSound "sounds/奥术师的铭刻.mp3" 250
 
 # 护甲片
 Show
@@ -876,7 +876,7 @@ Show
     SetFontSize 40
     MinimapIcon 2 Yellow Diamond
     PlayEffect Yellow Temp
-    CustomAlertSound "sounds/护甲片.mp3" 300
+    CustomAlertSound "sounds/护甲片.mp3" 250
 
 # 玻璃弹珠
 Show
@@ -888,7 +888,7 @@ Show
     SetFontSize 40
     MinimapIcon 2 Yellow Diamond
     PlayEffect Yellow Temp
-    CustomAlertSound "sounds/玻璃弹珠.mp3" 300
+    CustomAlertSound "sounds/玻璃弹珠.mp3" 250
 
 # 磨刀石
 Show
@@ -900,7 +900,7 @@ Show
     SetFontSize 40
     MinimapIcon 2 Yellow Diamond
     PlayEffect Yellow Temp
-    CustomAlertSound "sounds/磨刀石.mp3" 300
+    CustomAlertSound "sounds/磨刀石.mp3" 250
 
 # 宝石匠的棱镜
 Show
@@ -912,7 +912,32 @@ Show
     SetFontSize 40
     MinimapIcon 2 Yellow Diamond
     PlayEffect Yellow Temp
-    CustomAlertSound "sounds/宝石匠的棱镜.mp3" 300
+    CustomAlertSound "sounds/宝石匠的棱镜.mp3" 250
+
+# 高级符文
+Show
+    Class == "Augment"
+    BaseType "Rune"
+    DropLevel >= 52
+    SetBorderColor 255 200 0 255
+    SetBackgroundColor 60 50 0 240
+    SetTextColor 255 255 255 255
+    SetFontSize 40
+    MinimapIcon 2 Yellow Diamond
+    PlayEffect Yellow Temp
+    CustomAlertSound "sounds/高级符文.mp3" 250
+
+# 雕像
+Show
+    Class == "Augment"
+    BaseType "Idol"
+    SetBorderColor 255 200 0 255
+    SetBackgroundColor 60 50 0 240
+    SetTextColor 255 255 255 255
+    SetFontSize 40
+    MinimapIcon 2 Yellow Diamond
+    PlayEffect Yellow Temp
+    CustomAlertSound "sounds/雕像.mp3" 250
 
 # 传奇护甲 (中高等级)
 Show
@@ -1127,7 +1152,7 @@ Show
 # 传奇武器 - 低等级
 Show
     Rarity Unique
-    Class "One Hand Axes" "Two Hand Axes" "One Hand Swords" "Two Hand Swords" "One Hand Maces" "Two Hand Maces" "Crossbows" "Bows" "Spears"
+    Class "One Hand Axes" "Two Hand Axes" "One Hand Swords" "Two Hand Swords" "One Hand Maces" "Two Hand Maces" "Crossbows" "Bows" "Spears" "Quivers" "Bucklers"
     DropLevel < 60
     SetBorderColor 0 240 255 255
     SetBackgroundColor 0 50 70 200
