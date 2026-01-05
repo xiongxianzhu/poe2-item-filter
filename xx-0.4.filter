@@ -34,8 +34,8 @@ Show
     SetBackgroundColor 180 0 0 200      # 红底
     SetTextColor 255 255 255 255        # 白字
     SetFontSize 45
-    PlayEffect Purple
-    MinimapIcon 0 Purple Hexagon
+    PlayEffect Red
+    MinimapIcon 0 Red Hexagon
     CustomAlertSound "sounds/神圣石.mp3" 300
 
 # 卡兰德的魔镜
@@ -47,8 +47,8 @@ Show
     SetBackgroundColor 180 0 0 200      # 红底
     SetTextColor 255 255 255 255        # 白字
     SetFontSize 45
-    PlayEffect Purple
-    MinimapIcon 0 Purple Hexagon
+    PlayEffect Red
+    MinimapIcon 0 Red Hexagon
     CustomAlertSound "sounds/卡兰德的魔镜.mp3" 300
 
 # 辛格拉的发辫
@@ -59,8 +59,8 @@ Show
     SetBackgroundColor 180 0 0 200      # 红底
     SetTextColor 255 255 255 255        # 白字
     SetFontSize 45
-    PlayEffect Purple
-    MinimapIcon 0 Purple Hexagon
+    PlayEffect Red
+    MinimapIcon 0 Red Hexagon
     CustomAlertSound "sounds/辛格拉的发辫.mp3" 300
 
 # 深渊
@@ -72,8 +72,8 @@ Show
     SetBackgroundColor 180 0 0 200      # 红底
     SetTextColor 255 255 255 255        # 白字
     SetFontSize 45
-    PlayEffect Purple
-    MinimapIcon 0 Purple Hexagon
+    PlayEffect Red
+    MinimapIcon 0 Red Hexagon
     CustomAlertSound "sounds/光明预兆.mp3" 300
 
 # 传奇装备
@@ -86,8 +86,8 @@ Show
     SetBackgroundColor 180 0 0 200      # 红底
     SetTextColor 255 255 255 255        # 白字
     SetFontSize 45
-    PlayEffect Purple
-    MinimapIcon 0 Purple Hexagon
+    PlayEffect Red
+    MinimapIcon 0 Red Hexagon
     CustomAlertSound "sounds/传奇重革腰带.mp3" 300
 
 # ====================
